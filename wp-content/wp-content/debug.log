@@ -1,0 +1,1 @@
+[23-Jul-2024 04:29:24 UTC] PHP Fatal error:  Cannot redeclare register_bitcoin_price_widget() (previously declared in /var/www/html/wp-content/themes/technical-test-martin/functions.php:9) in /var/www/html/wp-content/themes/technical-test-martin/includes/widget_price_bitcoin.php on line 99

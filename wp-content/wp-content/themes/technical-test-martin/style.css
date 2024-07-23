@@ -1,0 +1,94 @@
+/*
+Theme Name: Technical Test Martin
+Author: Nelson Reyes
+Author URI: https://wordpress.org/
+Description: Theme Development Test for Martin 
+Requires at least: 5.9
+Tested up to: 6.6
+Requires PHP: 5.6
+Version: 1.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
+Twenty Twenty-Two is distributed under the terms of the GNU GPL.
+*/
+
+.widget-title{
+    font-size: 1.5rem /* 24px */;
+    font-weight: 700;
+    line-height: 1.75 /* 28px */;
+    margin-bottom: 1rem /* 16px */;
+    color: black;
+    text-align: center;
+}
+
+/* main */
+
+nav #menu-principal {
+    padding-top: 0.5rem /* 8px */;
+    padding-bottom: 0.5rem /* 8px */;
+    padding-left: 1rem /* 16px */;
+    padding-right: 1rem /* 16px */;
+}
+
+#menu-principal .current_page_item {
+  display: inline-block;
+  color: rgb(0 0 0 / var(--tw-text-opacity)) /* #000000 */;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+nav #menu-principal a:hover {
+  color: rgb(31 41 55 / var(--tw-text-opacity)); /* #1f2937 */
+  text-decoration: underline;
+}
+
+
+/* pagination */
+.pagination {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.pagination .page-numbers {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination .page-numbers:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination .current {
+  background-color: #0073aa;
+  color: #fff;
+  border-color: #0073aa;
+}
+
+.pagination .current:hover {
+  color: #2600ce;
+}
+
+.pagination .prev,
+.pagination .next {
+  font-weight: bold;
+}
+
+
+.active-link {
+  color: black !important; /* Asegúrate de usar !important si necesitas sobrescribir otros estilos */
+}
